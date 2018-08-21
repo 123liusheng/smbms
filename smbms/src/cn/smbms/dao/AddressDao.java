@@ -3,18 +3,18 @@ package cn.smbms.dao;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
-
+//æ›´æ–°
 import cn.smbms.entity.Address;
 public interface AddressDao {
 	/**
-	 * ²éÑ¯ËùÓĞĞÅÏ¢
+	 * æŸ¥è¯¢æ‰€æœ‰ä¿¡æ¯
 	 * 
 	 * @return
 	 */
 	List<Address> fandForAdderss();
 
 	/**
-	 * ĞÂÔöµØÖ·ĞÅÏ¢
+	 * æ–°å¢åœ°å€ä¿¡æ¯
 	 * 
 	 * @param addre
 	 * @return
@@ -22,7 +22,7 @@ public interface AddressDao {
 	int add(Address addre);
 
 	/**
-	 * ¸ù¾İidĞŞ¸ÄĞÅÏ¢
+	 * æ ¹æ®idä¿®æ”¹ä¿¡æ¯
 	 * 
 	 * @param addrs
 	 * @return
@@ -30,7 +30,7 @@ public interface AddressDao {
 	int update(Address addrs);
 
 	/**
-	 * ¸ù¾İidÉ¾³ıĞÅÏ¢
+	 * æ ¹æ®idåˆ é™¤ä¿¡æ¯
 	 * 
 	 * @param id
 	 * @return
